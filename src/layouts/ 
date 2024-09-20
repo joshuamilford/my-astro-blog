@@ -1,0 +1,103 @@
+- ResearchMatch
+	- RHEL9
+	- Trials Today long-term strategy 
+	- Tasks needing IRB approval
+	- Kaysi: do we continue to assign qa review?
+- IREx
+	- RHEL9
+	- API
+		- Component sites
+		- Other submission types
+	- Common funding sources/sponsors
+- IRB
+	- Annual Training
+	- OpenShift
+	- Bootstrap 5
+	- Common funding sources/sponsors
+- Other
+	- Bryce
+		- Are we allowed to use recaptcha (researchmatch)?
+		- Team goal requirements
+			- 1 pd goal
+			- project-related
+	- Maeve
+		- IRB approval for ui changes
+
+DISCOVR-e is not sending relying approvals anymore on initial approval, only reviewing
+
+brandon out october 4
+
+## Friday, September 19, 2024
+- [ ] check out kaysi's note about metrics
+- [ ] symfony 6 presentation
+- [ ] brandon php8 for next flagship meeting
+
+- [ ] when is pivotal tracker shutting down?
+- [ ] when will we get access to jira?
+- [ ] what policy or standards are we asking to be exempt from?
+- [ ] service account for splunk, maybe "flagship" account?
+
+- [ ] try new rm docker container
+- [ ] read architecture chapter 2
+- [ ] read unicorn project chapter 7
+- [ ] set up sql manager
+- [ ] get funding sources lists
+
+- [x] find crucial accountability
+- [x] kevin's numbers
+- [x] class constant ticket: repositories (jm/#173271391-class-constants-researcher-status)
+- [x] clarification on Kaysi's ticket (details, priorities)
+
+## Wednesday, September 18, 2024
+- [x] class constant ticket: controllers, commands, templates
+- [x] tell kristin to use irbdev instead of irbtest
+- [x] ask kaysi to check metrics
+
+## Tuesday, September 17, 2024
+- [x] class constant ticket: replace occurences (jm/#173271391-class-constants-researcher-status)
+- [x] kaysi: create ticket for carousel
+- [x] list my goals
+- [x] make openshift prod irb ticket for brandon to investigate
+- [x] metrics ticket: use vol repository instead of rdb_user
+- [x] vecc: pegasus request: https://pegasus.vumc.org/request/discover/info/?id=11399&type=0&from=%2frequest%2fdiscover%2fresults%2f%3ft%3dexemption%26s%3d&s=
+
+## Monday, September 16, 2024
+- [x] review trials today pr
+
+## Friday, September 13, 2024
+
+## Thursday, September 12, 2024
+- [x] class constant ticket: replace indexes with constants
+- [x] kevin's numbers
+- [x] read unicorn project chapter 6
+- [x] 1:1s
+- [x] add document to doc manager (prod, staging)
+
+## Wednesday, September 11, 2024
+- [x] start class constant ticket
+- [x] review prs
+- [x] metric pr feedback
+- [x] reply to tom
+- [x] irb dev meeting
+- [x] irb disaster recovery
+	- how often is database backed up?
+	- # users, interfaces
+- [x] add DISCOVR-e meeting tickets
+- [x] merge and deploy testimonials
+- [x] deploy document manager to prod
+- [x] create ticket to use document manager docs
+- [x] create irex api ticket
+- [x] populate documents on staging
+- [x] populate document manager on prod
+	- [x] Allowable_forms_of_Research_on_ResearchMatch.pdf
+	- [x] Guidance_to_Minimize_Fraud.pdf
+	- [x] Researcher_Training_Slides.pdf
+	- [x] Add a Study to ResearchMatch.pdf
+	- [?] Researcher_Registration_Instructions.pdf (translated)
+	- [?] Tips_for_Creating_a_Contact_Message.pdf (multiple titles)
+
+## Tuesday, September 10, 2024
+- [x] user-language (multiple)
+
+## Monday, September 9, 2024
+- [x] set up demo for sites manager, submission site\

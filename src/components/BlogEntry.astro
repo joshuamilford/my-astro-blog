@@ -1,0 +1,12 @@
+---
+const { entry } = Astro.props
+const { Content } = await entry.render();
+---
+
+<article>
+    <h1><a href={`/posts/${entry.slug}`}>{entry.data.title}</a></h1>
+    <time datetime={entry.data.pubDate.toISOString()}>
+        {entry.data.pubDate.toLocaleDateString()}
+    </time>
+    <Content />
+</article>

@@ -1,0 +1,7 @@
+---
+const { results } = Astro.props;
+---
+<h2>Results</h2>
+<ul>
+    {results.data.results.map((result) => <li>{result.person} {result.time}</li>)}
+</ul>

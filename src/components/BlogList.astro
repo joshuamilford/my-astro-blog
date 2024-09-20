@@ -1,0 +1,10 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import BlogEntry from './BlogEntry.astro';
+
+const blogEntries = await getCollection('posts');
+---
+
+<ul>
+    {blogEntries.map((entry) => <BlogEntry entry={entry} />)}
+</ul>
