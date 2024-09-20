@@ -1,5 +1,4 @@
 ---
-import type { GetStaticPaths } from "astro";
 import { getCollection } from "astro:content";
 import BlogEntry from "../../components/BlogEntry.astro";
 import Layout from "../../layouts/Layout.astro";
@@ -19,7 +18,7 @@ const results = entry.data.results && await getEntry(entry.data.results);
 ---
 
 <Layout title={entry.data.title}>
-    <div class="prose p-10 mx-auto bg-slate-50 rounded-lg m-10">
+    <div class="prose p-10 mx-auto bg-slate-500 rounded-lg m-10">
         <BlogEntry entry={entry} />
         {results && <Results results={results} />}
     </div>
